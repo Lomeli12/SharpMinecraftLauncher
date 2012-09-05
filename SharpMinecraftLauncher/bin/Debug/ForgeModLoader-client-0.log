@@ -1,0 +1,72 @@
+2012-09-04 21:43:40 [INFO] [ForgeModLoader] Forge Mod Loader version 3.0.71.289 for Minecraft client:1.3.2, server:1.3.2 loading
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] All core mods are successfully located
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Discovering coremods
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Found library file argo-2.25.jar present and correct in lib dir
+
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Found library file guava-12.0.1.jar present and correct in lib dir
+
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Found library file asm-all-4.0.jar present and correct in lib dir
+
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Running coremod plugins
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Running coremod plugin FMLCorePlugin
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Coremod plugin FMLCorePlugin run successfully
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Running coremod plugin FMLForgePlugin
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Coremod plugin FMLForgePlugin run successfully
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Validating minecraft
+2012-09-04 21:43:40 [FINEST] [ForgeModLoader] Minecraft validated, launching...
+2012-09-04 21:43:42 [INFO] [STDOUT] 27 achievements
+2012-09-04 21:43:42 [INFO] [STDOUT] 195 recipes
+2012-09-04 21:43:42 [INFO] [STDOUT] Setting user: anthonylomeli11@gmail.com, 82fb753c66ff1c8bfa2546b5a4749db7f010b588
+2012-09-04 21:43:42 [INFO] [STDERR] Client asked for parameter: server
+2012-09-04 21:43:42 [INFO] [STDOUT] LWJGL Version: 2.4.2
+2012-09-04 21:43:43 [INFO] [ForgeModLoader] Attempting early MinecraftForge initialization
+2012-09-04 21:43:43 [INFO] [ForgeModLoader] Completed early MinecraftForge initialization
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer]
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Found a minecraft related file at C:\Users\Anthony\AppData\Roaming\.minecraft\bin\minecraft.jar, examining for mod candidates
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\bin\jinput.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\bin\lwjgl.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\bin\lwjgl_util.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\lib\argo-2.25.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\lib\guava-12.0.1.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Skipping known library file C:\Users\Anthony\AppData\Roaming\.minecraft\lib\asm-all-4.0.jar
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2012-09-04 21:43:43 [INFO] [ForgeModLoader] Searching C:\Users\Anthony\AppData\Roaming\.minecraft\mods for mods
+2012-09-04 21:43:43 [FINE] [ForgeModLoader] Examining file minecraft.jar for potential mods
+2012-09-04 21:43:44 [INFO] [ForgeModLoader] Forge Mod Loader has identified 2 mods to load
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Received a system property request ''
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] System property request managing the state of 0 mods
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Verifying mod requirements are satisfied
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] All mod requirements are satisfied
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Sorting mods into an ordered list
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Mod sorting completed successfully
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Mod sorting data:
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Activating mod FML
+2012-09-04 21:43:44 [FINE] [ForgeModLoader] Activating mod Forge
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLConstructionEvent@b37095 to mod FML
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLConstructionEvent@b37095 delivered to mod FML
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLConstructionEvent@b37095 to mod Forge
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLConstructionEvent@b37095 delivered to mod Forge
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLPreInitializationEvent@1ea7f02 to mod FML
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLPreInitializationEvent@1ea7f02 delivered to mod FML
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLPreInitializationEvent@1ea7f02 to mod Forge
+2012-09-04 21:43:44 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLPreInitializationEvent@1ea7f02 delivered to mod Forge
+2012-09-04 21:43:44 [INFO] [STDOUT] Starting up SoundSystem...
+2012-09-04 21:43:44 [INFO] [STDOUT] Initializing LWJGL OpenAL
+2012-09-04 21:43:44 [INFO] [STDOUT]     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2012-09-04 21:43:45 [INFO] [STDOUT] OpenAL initialized.
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLInitializationEvent@1fc9052 to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLInitializationEvent@1fc9052 delivered to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLInitializationEvent@1fc9052 to mod Forge
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLInitializationEvent@1fc9052 delivered to mod Forge
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLPostInitializationEvent@1a31031 to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLPostInitializationEvent@1a31031 delivered to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLPostInitializationEvent@1a31031 to mod Forge
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLPostInitializationEvent@1a31031 delivered to mod Forge
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLLoadCompleteEvent@c5fb80 to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLLoadCompleteEvent@c5fb80 delivered to mod FML
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] Posting state event cpw.mods.fml.common.event.FMLLoadCompleteEvent@c5fb80 to mod Forge
+2012-09-04 21:43:45 [FINER] [ForgeModLoader] State event cpw.mods.fml.common.event.FMLLoadCompleteEvent@c5fb80 delivered to mod Forge
+2012-09-04 21:43:45 [INFO] [ForgeModLoader] Forge Mod Loader has successfully loaded 2 mods
+2012-09-04 21:43:48 [INFO] [STDERR] Someone is closing me!

@@ -1,7 +1,8 @@
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.exe
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.pdb
-C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLauncher.MainForm.resources
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLauncher.csproj.GenerateResource.Cache
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.exe
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.pdb
+C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\ResolveAssemblyReference.cache

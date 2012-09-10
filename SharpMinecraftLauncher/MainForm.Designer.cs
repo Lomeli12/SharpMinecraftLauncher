@@ -33,7 +33,6 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.passwordtextbox = new System.Windows.Forms.TextBox();
-			this.progressBar1 = new System.Windows.Forms.ProgressBar();
 			this.label3 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -78,16 +77,9 @@
 			this.passwordtextbox.TabIndex = 4;
 			this.passwordtextbox.UseSystemPasswordChar = true;
 			// 
-			// progressBar1
-			// 
-			this.progressBar1.Location = new System.Drawing.Point(12, 137);
-			this.progressBar1.Name = "progressBar1";
-			this.progressBar1.Size = new System.Drawing.Size(264, 23);
-			this.progressBar1.TabIndex = 5;
-			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(12, 111);
+			this.label3.Location = new System.Drawing.Point(12, 93);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(264, 23);
 			this.label3.TabIndex = 6;
@@ -97,23 +89,21 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(293, 172);
+			this.ClientSize = new System.Drawing.Size(285, 130);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.progressBar1);
 			this.Controls.Add(this.passwordtextbox);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.logintextbox);
 			this.Controls.Add(this.button1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.Text = "SharpMinecraftLauncher";
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.ProgressBar progressBar1;
 		private System.Windows.Forms.TextBox passwordtextbox;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;

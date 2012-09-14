@@ -32,33 +32,41 @@ namespace SharpMinecraftLauncher
 		{
 			user = logintextbox.Text;
 			pass = passwordtextbox.Text;
+            label3.Text = "Verifying account...";
 			if(logintextbox.Text != "" && passwordtextbox.Text != "")
 			{
 				string response = MClogin.generateSession(user, pass, 13);
 				string[] split = response.Split(':');
-				label3.Text = "Verifying account...";
+                label3.Refresh();
 				try{
 					string sessionID = split[3];// Get Session ID
 					string username = split[2];// Get username, in case user is on a migrated account.
+					label3.ForeColor = System.Drawing.Color.White;
 					label3.Text = "Checking and downloading necesary files.";
+                    label3.Refresh();
 					MinecraftDownloadUtils.CheckLibraries();
 					label3.Text = "Login Sucessful.";
+                    label3.Refresh();
 					Thread.Sleep(3000);
 					MClogin.startMinecraft(true, 256, 1024, username, sessionID, false);
 				}
 				catch (System.IndexOutOfRangeException)
 				{
-					MessageBox.Show("Invalid username or password.");
+					label3.ForeColor = System.Drawing.Color.Red;
+					if(response == "Bad login")
+					{
+						label3.Text = "Invalid username or password!";
+					}
+					else
+					{
+					label3.Text = response;
+					}
 				}
 			}
 			else{
-				MessageBox.Show("Please input a valid username and password.");
+				label3.ForeColor = System.Drawing.Color.Red;
+				label3.Text = "Please input a valid username and password.";
 			}
-		}
-		
-		void MainFormLoad(object sender, EventArgs e)
-		{
-			label3.Text = "Standby...";
-		}
+        }
 	}
 }

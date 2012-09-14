@@ -29,7 +29,7 @@ namespace SharpMinecraftLauncher
 			string jinput = "jinput.jar";
 			string lwjgl_util = "lwjgl_util.jar";
 			string natives = "\\natives";
-			string[] folders = new string[] { bin, resources, save, stats, texture, cache };
+			string[] folders = new string[] { path, bin, resources, save, stats, texture, cache };
 			foreach (string f in folders)
 			{
 				if(Directory.Exists(f))
@@ -101,26 +101,12 @@ namespace SharpMinecraftLauncher
 				c.WindowStyle = ProcessWindowStyle.Hidden;
 				Process b = Process.Start(c);
 				b.WaitForExit();
+                File.Delete(bin + natives + @"\META-INF\MANIFEST.MF");
+                File.Delete(bin + natives + @"\META-INF\MOJANG_C.DSA");
+                File.Delete(bin + natives + @"\META-INF\MOJANG_C.SF");
 				Directory.Delete(bin + natives + "\\META-INF");
 				File.Delete(bin + natives + "\\windows_natives.jar");
 			}
-			/*string[] jars = new string[] { minecraft, lwjgl, jinput, lwjgl_util };
-			foreach (string j in jars)
-			{
-				if(File.Exists(bin + @"\" + j))
-				{
-					
-				}
-				else
-				{
-					System.Threading.Tasks.Task.Factory.StartNew(() =>
-					    {
-						    WebClient downloadlib = new WebClient();
-							downloadlib.DownloadFile(new Uri("http://s3.amazonaws.com/MinecraftDownload/" + j, UriKind.RelativeOrAbsolute), (bin + @"\" + j));
-						});
-				}
-			}*/
-			
 		}
 
 	}

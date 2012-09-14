@@ -5,4 +5,15 @@ C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\ob
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.exe
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.pdb
 C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.exe.config
-C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\biz\Desktop\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.exe.config
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.exe
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.pdb
+C:\Users\biz\Desktop\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.exe
+C:\Users\biz\Desktop\SharpMinecraftLauncher\bin\Debug\SharpMinecraftLancher.pdb
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLauncher.MainForm.resources
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\biz\Desktop\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.Properties.Resources.resources
+C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2010\Projects\SharpMinecraftLauncher\obj\x86\Debug\SharpMinecraftLancher.Properties.Resources.resources

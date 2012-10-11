@@ -32,21 +32,21 @@ namespace SharpMinecraftLauncher
 		{
 			user = logintextbox.Text;
 			pass = passwordtextbox.Text;
-            label3.Text = "Verifying account...";
+            		label3.Text = "Verifying account...";
 			if(logintextbox.Text != "" && passwordtextbox.Text != "")
 			{
 				string response = MClogin.generateSession(user, pass, 13);
 				string[] split = response.Split(':');
-                label3.Refresh();
+                		label3.Refresh();
 				try{
 					string sessionID = split[3];// Get Session ID
 					string username = split[2];// Get username, in case user is on a migrated account.
 					label3.ForeColor = System.Drawing.Color.White;
 					label3.Text = "Checking and downloading necesary files.";
-                    label3.Refresh();
+                    			label3.Refresh();
 					MinecraftDownloadUtils.CheckLibraries();
 					label3.Text = "Login Sucessful.";
-                    label3.Refresh();
+                    			label3.Refresh();
 					Thread.Sleep(3000);
 					MClogin.startMinecraft(true, 256, 1024, username, sessionID, false);
 				}
